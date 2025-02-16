@@ -1,0 +1,42 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Salary   R-squared:                       0.824
+Model:                            OLS   Adj. R-squared:                  0.739
+Method:                 Least Squares   F-statistic:                     9.667
+Date:                Sat, 15 Feb 2025   Prob (F-statistic):           2.88e-08
+Time:                        17:23:12   Log-Likelihood:                -842.57
+No. Observations:                  50   AIC:                             1719.
+Df Residuals:                      33   BIC:                             1752.
+Df Model:                          16                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const         -4.13e+07   5.16e+07     -0.800      0.429   -1.46e+08    6.37e+07
+PPG           5.354e+05   6.32e+05      0.848      0.403    -7.5e+05    1.82e+06
+APG           1.585e+05   6.14e+05      0.258      0.798   -1.09e+06    1.41e+06
+RPG           5.191e+05    6.8e+05      0.764      0.450   -8.63e+05     1.9e+06
+BSPG          1.785e+06      2e+06      0.891      0.379   -2.29e+06    5.86e+06
+TS%           3.731e+05   7.91e+05      0.472      0.640   -1.24e+06    1.98e+06
+PER          -1.677e+05   1.22e+06     -0.137      0.892   -2.66e+06    2.32e+06
+WS/48        -2.942e+07   5.91e+07     -0.498      0.622    -1.5e+08    9.09e+07
+Age           1.901e+06   1.03e+06      1.853      0.073   -1.86e+05    3.99e+06
+Seasons      -1.128e+06    1.1e+06     -1.028      0.312   -3.36e+06    1.11e+06
+Draft Pos      462.7210   1.26e+05      0.004      0.997   -2.57e+05    2.58e+05
+All Stars     7.733e+05   6.25e+05      1.238      0.225   -4.98e+05    2.04e+06
+Games Played -5.432e+04   6.98e+04     -0.778      0.442   -1.96e+05    8.77e+04
+Guard         3.204e+06   4.33e+06      0.740      0.465   -5.61e+06     1.2e+07
+Forward      -9.376e+05   3.69e+06     -0.254      0.801   -8.44e+06    6.56e+06
+Big Market   -3.362e+06   2.04e+06     -1.644      0.110   -7.52e+06    7.98e+05
+Rookie Deal  -2.073e+07   4.06e+06     -5.103      0.000    -2.9e+07   -1.25e+07
+==============================================================================
+Omnibus:                        2.721   Durbin-Watson:                   1.518
+Prob(Omnibus):                  0.256   Jarque-Bera (JB):                1.500
+Skew:                          -0.053   Prob(JB):                        0.472
+Kurtosis:                       2.158   Cond. No.                     7.66e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.66e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
