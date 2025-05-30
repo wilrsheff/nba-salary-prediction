@@ -1,5 +1,8 @@
 # Predicting NBA Salaries: A Multivariable Regression Analysis
 
+Wil Sheffield  
+May 2024
+
 ## Overview
 
 This project applies **multivariable linear regression** to estimate the salaries of the **top 50 NBA players** for the **2023-2024 season**. Using **Python (Pandas, NumPy, SciPy, Statsmodels)**, it analyzes **player statistics, attributes, and categorical factors** to predict salary values.  
@@ -23,19 +26,18 @@ The data was collected from **trusted sports analytics sources**:
 
 ## Repository Structure
 
-```plaintext
-nba-salary-prediction/
-│── Reports/
-│   │── Predicting NBA Salaries Presentation.pdf    # Pre-analysis PowerPoint
-│   │── Predicting NBA Salaries Summary Report.pdf  # Full summary report
+```
 │── Results/
 │   │── multicollinearity_vif.csv     # VIF results for multicollinearity
 │   │── regression_results.txt        # Regression output
 │   │── residual_distribution.png     # Histogram of residuals
 │   │── residuals_plot.png            # Residuals vs. predicted salary
-│── NBA_Raw_Data.csv                  # Raw dataset of player statistics & salaries
-│── README.md                         # Project overview and instructions
-│── nba_salary_predictor.py           # Main Python script
+│── 01_final_code.py                  # Main Python script
+│── 02_data.csv                       # Raw dataset of player statistics & salaries
+│── 03_final_report.pdf               # Post-analysis report
+│── 04_final_presentation.pdf         # Pre-analysis presentation
+│── README.md                         # Project overview (this file)
+
 ```
 
 ---
@@ -167,7 +169,7 @@ python nba_salary_predictor.py
 ```
 
 This script will:
-- Load **NBA_Raw_Data.csv**
+- Load **02_data.csv**
 - Perform **regression analysis**
 - Generate **residual plots and VIF calculations**
 - Output **results in the `Results/` folder**
